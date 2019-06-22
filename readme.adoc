@@ -1,0 +1,17 @@
+= Small test project
+
+==  How to run
+
+This is an maven java project. make sure you haw maven and java on you compruter. Then run `mvn package`.
+
+Then you can run the application from root root whit
+``java -jar target/fileseartch-1.0-SNAPSHOT-jar-with-dependencies.jar ./src/test/resources/testFiles``
+
+== Test
+The application has multiple test files. Bot for the search and the "GUI"/integration test.
+
+== TODO
+
+- Update search to be more efficient (use HasMap in file class and so on), work on part of words matching and haw awareness of word order.
+- migrate it to an Spring terminal project.
+- Implement error handling
